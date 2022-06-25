@@ -1,0 +1,51 @@
+.city__select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 620px;
+
+  margin: 0 auto;
+}
+
+.candidate {
+  margin-top: 20px;
+}
+
+.candidate__quantity {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.candidate__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.candidate__person {
+  width: 150px;
+  height: 100px;
+  border: solid 1px black;
+  margin-right: 5px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.candidate__person--name {
+  font-size: 18px;
+  color: darkgray;
+}
+
+.candidate__person--vote {
+  font-size: 12px;
+  color: gray;
+}
+
+.candidate__person--percent {
+  font-size: 15px;
+  color: orange;
+}
+
